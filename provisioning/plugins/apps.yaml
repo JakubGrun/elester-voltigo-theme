@@ -1,0 +1,11 @@
+apiVersion: 1
+
+apps:
+  - type: 'voltigo-elestervoltigo-app'
+    org_id: 1
+    org_name: 'voltigo'
+    disabled: false
+    jsonData:
+      apiUrl: http://default-url.com
+    secureJsonData:
+      apiKey: secret-key

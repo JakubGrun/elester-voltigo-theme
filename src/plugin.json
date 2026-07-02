@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "app",
+  "name": "Voltigo Theme",
+  "id": "voltigo-elestervoltigo-app",
+  "info": {
+    "keywords": ["theme", "voltigo", "brand", "dark"],
+    "description": "Applies Voltigo design system colors and branding to self-hosted Grafana instances.",
+    "author": {
+      "name": "Elester",
+      "url": "https://elester.com.pl"
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "includes": [],
+  "dependencies": {
+    "grafanaDependency": ">=12.3.0",
+    "plugins": []
+  },
+  "autoEnabled": true,
+  "preload": true
+}
