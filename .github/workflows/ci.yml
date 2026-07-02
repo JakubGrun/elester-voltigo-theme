@@ -202,7 +202,7 @@ jobs:
       - name: Docker logs
         if: ${{ always() && steps.run-tests.outcome == 'failure' }}
         run: |
-          docker logs voltigo-elestervoltigo-app >& grafana-server.log
+          docker logs elestervoltigo-theme-app >& grafana-server.log
 
       - name: Stop grafana docker
         run: docker compose down

@@ -1,7 +1,7 @@
 apiVersion: 1
 
 apps:
-  - type: 'voltigo-elestervoltigo-app'
+  - type: 'elestervoltigo-theme-app'
     org_id: 1
     org_name: 'voltigo'
     disabled: false
