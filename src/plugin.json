@@ -14,7 +14,11 @@
       "small": "img/logo.svg",
       "large": "img/logo.svg"
     },
-    "screenshots": [],
+    "screenshots": [
+      { "name": "Dashboard with Voltigo theme", "path": "img/screenshots/dashboard.png" },
+      { "name": "Home page with Voltigo theme", "path": "img/screenshots/home.png" },
+      { "name": "Alert rules with Voltigo theme", "path": "img/screenshots/alerting.png" }
+    ],
     "version": "%VERSION%",
     "updated": "%TODAY%"
   },
